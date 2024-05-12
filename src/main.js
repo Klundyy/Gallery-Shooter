@@ -8,7 +8,7 @@ let config = {
     },
     width: 1000,
     height: 800,
-    scene: [Scene3,Scene2,Scene1,gameoverScreen, winScreen],
+    scene: [Scene1,Scene2,Scene3,gameoverScreen, winScreen],
     fps: { forceSetTimeOut: true, target: 60 }
 }
 
