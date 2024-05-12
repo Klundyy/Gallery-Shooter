@@ -11,9 +11,9 @@ class winScreen extends Phaser.Scene {
     }
     create(){
         let my = this.my;
-        let win = this.add.bitmapText(425, 350, "rocketSquare", "You Win");
-        let retry = this.add.bitmapText(375, 450, "rocketSquare", "Click to retry");
-        let highscore = this.add.bitmapText(325, 550,"rocketSquare", "Your Score was: " + this.myScore);
+        let win = this.add.bitmapText(425, 250, "rocketSquare", "You Win");
+        let retry = this.add.bitmapText(375, 350, "rocketSquare", "Click to retry");
+        let highscore = this.add.bitmapText(325, 450,"rocketSquare", "Your Score was: " + this.myScore);
     }
     update(){
         let my = this.my;
